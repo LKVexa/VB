@@ -1,0 +1,35 @@
+VB 4.8.0 - QUICK INSTRUCTIONS
+
+1. DOWNLOAD AND JOIN
+Save every numbered ZIP part and START-HERE.zip in one folder.
+Extract START-HERE.zip and double-click Join VB Parts.cmd inside.
+The helper checks, joins and extracts the files. Open the kit under
+VB-JA21-4.8.0-Kit-Ready. Allow about 2 GB free space.
+
+2. CHECK AND RUN
+Open Verify Kit.cmd. When verification passes, open Run VB.cmd.
+You do not need to install or compile VB to use the portable browser.
+
+3. EDIT AND COMPILE (OPTIONAL)
+Close VB. Edit the files in VB/source, then open Compile VB.cmd.
+Wait for "Compile and verification completed." The JA21 compilers,
+Python and Node runtimes are included; no setup downloads are needed.
+
+4. CREATE AN INSTALLER (OPTIONAL)
+Open Build Installer.cmd. The result is in Builds.
+This step additionally needs Windows .NET Framework 4 with its C#
+compiler and WPF libraries. Those Windows components are not bundled.
+
+5. IF SOMETHING DOES NOT WORK
+Missing/changed part: download that numbered part again.
+Do not open individual parts as ZIP files or rename them.
+If the extracted destination already exists, the helper keeps it.
+To retry extraction, use a fresh folder. Read the error before closing.
+
+KEEP IN MIND
+Full parts are 24,000,000 bytes; the last part is smaller.
+Portable browsing data lives in VB/profile. Close older VB/Air Glass
+instances before opening this version. DeleteMe permanently removes
+only the locations shown in its review; keep any wanted data first.
+Apache 2.0 covers new contributions and packaging. Inherited component
+terms remain; read LICENSE, NOTICE and LICENSING.md.

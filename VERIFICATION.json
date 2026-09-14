@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "application": "VB JA21 4.8.0",
+  "packaging": {
+    "kitFiles": 347,
+    "kitExpandedBytes": 305940843,
+    "archiveCrc": "passed",
+    "archiveSha256": "f19b392ef757373487bd300bacfecd4cfec9515c43603cfe26f5779de5836cd7",
+    "archiveBytes": 135544360,
+    "partBytes": 24000000,
+    "partCount": 6,
+    "starterBytes": 14084
+  },
+  "compilerAndInstaller": {
+    "status": "passed",
+    "compiler": {
+      "status": "passed",
+      "mode": "installer",
+      "version": "4.8.0",
+      "node": "20.18.0",
+      "completedAt": "2026-09-13T08:26:51.519Z",
+      "scope": "JA21 browser subset and generated assets; inherited Electron runtime is not recompiled."
+    },
+    "compilerEnvironment": "PATH contained only Windows and System32; no separately installed Python or Node was available through PATH.",
+    "nativeInstaller": {
+      "passed": true,
+      "checks": 7
+    },
+    "checks": [
+      {
+        "check": "native-installer-tests",
+        "passed": true
+      },
+      {
+        "check": "embedded-payload",
+        "passed": true
+      },
+      {
+        "check": "full-installation",
+        "passed": true
+      },
+      {
+        "check": "installed-file-inventory",
+        "passed": true
+      },
+      {
+        "check": "installed-application-verification",
+        "passed": true
+      },
+      {
+        "check": "kit-file-inventory",
+        "passed": true
+      }
+    ],
+    "installerSha256": "301df1760e07d03627a6f0a15a00d66d0050a6c7f61db2010ddbb7167346ad6f",
+    "appInventorySha256": "dd3808a597956245655f7fa98581f48d88838bedb8b7882f0259d104c32a3507",
+    "preservedFiles": {
+      "engine/VB.exe": "1fa93c3471c11dc8128998c662c705104e4528b98901b61c8a25216acda424c5",
+      "assets/vb.ico": "32d9ee9b41cce291849d0cf81d5dfe522d17a915d0913449578dd4832ee1685f",
+      "assets/vb-logo.png": "0e0a6afaafc1b902f34068664edf1abe6c114efa6c2d283d31c5563eada71213",
+      "installer/Installer.xaml": "b9b96f04c0e3f32ee5a3526770a266dcfa7638e9f601e9e438faccdb46d279eb",
+      "app/shell/design.css": "c0462c675d63e61f136c6f918ad38e85ad534fb1d536b4c0243ed2a998d993f3",
+      "source/browser.ja": "b01bac1ad49c266b1102a6fe9da6e18da36e02704d35ce361f0587ba07da354f",
+      "source/chrome.jaui": "e3f48ae32bdab6aac322469be9089e3c16401521f7aa25e5186aead3491efe3e",
+      "source/glass.jxd": "cd6a2a64b99a92d52ce100f039194188f3715a844c1e98822053a19deda5514f",
+      "app/main.js": "b2483cea1ef576eb12d7b486e158d42dfe9b6d51a4990c2a0775eda3aadade4c"
+    },
+    "limitations": [
+      "Inherited Electron 31.7.7 runtime unchanged.",
+      "Live Chromium graphics and full production DeleteMe handoff remain unverified; native extraction and local source/runtime checks are covered."
+    ]
+  },
+  "reassembly": {
+    "status": "passed",
+    "partCount": 6,
+    "fullPartBytes": 24000000,
+    "lastPartBytes": 15544360,
+    "archiveSha256": "f19b392ef757373487bd300bacfecd4cfec9515c43603cfe26f5779de5836cd7",
+    "archiveBytes": 135544360,
+    "joinedArchiveEqualsOriginal": true,
+    "starterCmdAndParentDiscovery": "passed",
+    "extractedFilesMatchSealedKit": true,
+    "kitFileCount": 347,
+    "relocatedKitVerification": "passed",
+    "relocatedOfflineCompilation": "passed",
+    "relocatedPostBuildVerification": "passed",
+    "relocatedBuildReceipt": {
+      "status": "passed",
+      "mode": "compile",
+      "version": "4.8.0",
+      "node": "20.18.0",
+      "completedAt": "2026-09-13T08:33:37.794Z",
+      "scope": "JA21 browser subset and generated assets; inherited Electron runtime is not recompiled."
+    }
+  },
+  "helperScenarios": {
+    "status": "passed",
+    "tests": [
+      {
+        "test": "valid-and-existing-folder",
+        "status": "passed",
+        "exitCode": 0,
+        "expected": "verified join, extraction and preservation of existing folder"
+      },
+      {
+        "test": "missing-part",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "Missing"
+      },
+      {
+        "test": "changed-part",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "incomplete or changed"
+      },
+      {
+        "test": "whole-archive-hash",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "ZIP verification failed"
+      },
+      {
+        "test": "unsafe-manifest-filename",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "Invalid part entry"
+      },
+      {
+        "test": "zip-traversal",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "Unsafe archive path"
+      },
+      {
+        "test": "zip-outside-root",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "Unsafe archive path"
+      },
+      {
+        "test": "zip-duplicate-case",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "Duplicate or escaping archive path"
+      },
+      {
+        "test": "malformed-zip",
+        "status": "passed",
+        "exitCode": 1,
+        "expected": "Exception"
+      }
+    ]
+  },
+  "integrityClaim": "SHA-256 checks detect transfer changes; this is not a publisher signature.",
+  "licenseScope": "Apache-2.0 for new contributions and packaging; inherited private and third-party terms retained. See LICENSING.md."
+}

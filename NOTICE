@@ -1,0 +1,23 @@
+VB JA21 4.8.0 - Source, Portable and Compiler Kit
+Copyright 2026 VB contributors (new contributions and kit packaging).
+
+Original VB compiler-kit driver, launchers, documentation and packaging:
+Apache License, Version 2.0. See LICENSE and LICENSING.md for scope.
+
+This distribution includes:
+- The user-supplied Air Glass browser and CLOUD-JA21 behavioral reference.
+  Original private / UNLICENSED source status is recorded in
+  VB/THIRD-PARTY-NOTICES.md and VB/provenance/.
+- The user-supplied VB logo; original and transformation hashes are
+  preserved in VB/provenance/icon-artwork.json.
+- Electron 31.7.7 (MIT) and Chromium dependency notices:
+  VB/licenses/Electron-MIT.txt, VB/engine/LICENSE and
+  VB/engine/LICENSES.chromium.html.
+- Fluent UI references, copyright Microsoft Corporation (MIT):
+  VB/licenses/FluentUI-MIT.txt and VB/provenance/donor-sources.json.
+- Twenty JA21 language-suite references and the JAXD bootstrap compiler
+  (Apache-2.0): VB/provenance/corpora/ and VB/provenance/jaxd-compiler.json.
+- CPython and its included dependencies: Compiler/Python/LICENSE.txt
+  and Compiler/python-provenance.json.
+
+This NOTICE is informational and does not modify component licenses.

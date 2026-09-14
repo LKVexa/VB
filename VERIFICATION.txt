@@ -1,0 +1,23 @@
+VB 4.8.0 delivery verification
+
+PASS - Six numbered parts; each full part is 24,000,000 bytes.
+PASS - Complete reassembled ZIP matches the original SHA-256.
+PASS - All 347 extracted kit files match the sealed package.
+PASS - Starter launcher locates parts in its parent folder.
+PASS - Nine helper scenarios, including missing, changed and unsafe files.
+PASS - JA21 compilation with included runtimes and Windows-only PATH.
+PASS - Compiler works after extraction to a different folder.
+PASS - Application checks: 8 runtime tests passed.
+PASS - Native installer rebuilt from the included sources.
+PASS - Seven native installer tests, payload check and test installation.
+PASS - Installed file inventory and application verification.
+PASS - Existing icon, theme, browser behavior source and engine preserved.
+
+The JA21 compiler covers the documented VB browser subset.
+Building an installer also uses Windows .NET Framework 4 and WPF.
+Live Chromium graphics and full production DeleteMe handoff were not
+verified in this environment. The inherited Electron 31 runtime is unchanged.
+
+Apache 2.0 covers new contributions and packaging. Inherited private and
+third-party components keep their terms; see LICENSING.md and NOTICE.
+SHA256SUMS.txt detects changed downloads; it is not a publisher signature.

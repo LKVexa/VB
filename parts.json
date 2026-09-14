@@ -1,0 +1,40 @@
+{
+  "format": "vb-split-kit/1",
+  "partBytes": 24000000,
+  "archiveName": "VB-JA21-4.8.0-Source-Portable-Compiler.zip",
+  "archiveBytes": 135544360,
+  "archiveSha256": "f19b392ef757373487bd300bacfecd4cfec9515c43603cfe26f5779de5836cd7",
+  "kitRoot": "VB-JA21-4.8.0-Kit",
+  "parts": [
+    {
+      "file": "VB-JA21-4.8.0-Source-Portable-Compiler.zip.001",
+      "bytes": 24000000,
+      "sha256": "22d4a76dfd6b8ef0db37191828a3775cf9dddf683e6315e0ebbdc8a35b579abc"
+    },
+    {
+      "file": "VB-JA21-4.8.0-Source-Portable-Compiler.zip.002",
+      "bytes": 24000000,
+      "sha256": "f8ef5da3aefc76288a3134d99b5d7e9d5c10d0efe71a71ea4156f00d4fb7888f"
+    },
+    {
+      "file": "VB-JA21-4.8.0-Source-Portable-Compiler.zip.003",
+      "bytes": 24000000,
+      "sha256": "86eb51543ecbfea0c7c4a9ff66581092c5ef69b149d941f6fa5bf8fc4bba5406"
+    },
+    {
+      "file": "VB-JA21-4.8.0-Source-Portable-Compiler.zip.004",
+      "bytes": 24000000,
+      "sha256": "799e0348a271b256f2d17f343c6f8a5d0392c6a13ea127fcf07422be05ba244d"
+    },
+    {
+      "file": "VB-JA21-4.8.0-Source-Portable-Compiler.zip.005",
+      "bytes": 24000000,
+      "sha256": "93bfb03f8f3617395c9e567d4d81f3a6d8eb2398036a8dbda5469e9ec4f3ffdf"
+    },
+    {
+      "file": "VB-JA21-4.8.0-Source-Portable-Compiler.zip.006",
+      "bytes": 15544360,
+      "sha256": "e8a4cd0bf986209ea0c1cd3e15948e8992ad439adee1c33a7c97f15984465e77"
+    }
+  ]
+}
